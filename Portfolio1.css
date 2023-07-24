@@ -256,7 +256,7 @@ header .navbar ul li a:hover {
 }
 
 .footer .credit {
-    padding: 1rem 0 0 0;
+    padding: 1rem 0 1rem 0;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Nunito', sans-serif;
@@ -301,7 +301,6 @@ header .navbar ul li a:hover {
         padding: 1.1rem;
     }
 }
-
 /*    Footer section ends    */
 
 /*    Common media queries ends    */
@@ -318,7 +317,6 @@ header .navbar ul li a:hover {
         padding: 2rem;
     }
 }
-
 /*    Common media queries ends    */
 
 /*    Scroll top starts    */
