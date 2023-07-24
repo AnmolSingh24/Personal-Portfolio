@@ -290,7 +290,7 @@ header .navbar ul li a:hover {
 
 @media(max-width:450px) {
     .footer .box-container .box {
-        margin: 2rem;
+        margin-left: 2rem;
     }
 
     .footer .box-container .box p {
@@ -301,6 +301,7 @@ header .navbar ul li a:hover {
         padding: 1.1rem;
     }
 }
+
 /*    Footer section ends    */
 
 /*    Common media queries ends    */
@@ -317,6 +318,7 @@ header .navbar ul li a:hover {
         padding: 2rem;
     }
 }
+
 /*    Common media queries ends    */
 
 /*    Scroll top starts    */

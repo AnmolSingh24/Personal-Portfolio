@@ -858,8 +858,13 @@ header .navbar ul li a:hover {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+    .experience {
+        background-color: #fff;
+        height: 700px;
+    }
+
     .experience .heading {
-        margin-top: -6rem;
+        margin-top: 1rem;
     }
 
     .experience .timeline::after {
