@@ -272,9 +272,6 @@ header .navbar ul li a:hover {
 
 /*  main section media queries starts  */
 @media (max-width: 450px) {
-    .home .content {
-        padding-top: 1rem;
-    }
 
     .home .content h2,
     .home .content h2 span {
@@ -409,7 +406,7 @@ header .navbar ul li a:hover {
 
     .about .row {
         padding: 0.5rem;
-        margin-bottom: 7rem;
+        margin-bottom: 15rem;
     }
 
     .about .row .content {
@@ -505,7 +502,7 @@ header .navbar ul li a:hover {
 /*   skills media queries starts   */
 @media screen and (max-width: 600px) {
     .skills {
-        margin-top: 10rem;
+        margin-top: 1rem;
     }
 
     .skills .container {
