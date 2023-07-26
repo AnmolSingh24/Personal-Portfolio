@@ -483,6 +483,13 @@ header .navbar ul li a:hover {
     margin-top: 2rem;
     justify-content: center;
     align-items: center;
+    cursor: default;
+}
+
+.skills .container .bar .info span:hover{
+    box-shadow: 5px 5px 5px rgb(1, 45, 189);
+    transition: .5s;
+    transform: scale(1.06);
 }
 
 .skills .container .bar .info span img {
@@ -633,6 +640,8 @@ header .navbar ul li a:hover {
 @media screen and(max-width: 600px) {
     .education .box-container .box {
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .education .box-container .box .image {
