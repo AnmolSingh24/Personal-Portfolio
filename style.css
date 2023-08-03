@@ -21,7 +21,7 @@ html {
 body {
     background: #f7f7f7;
     font-family: 'Poppins', sans-serif;
-
+    box-sizing: border-box;
 }
 
 *::selection {
@@ -551,6 +551,7 @@ header .navbar ul li a:hover {
 .education {
     background: #e5ecfb;
     min-height: 80vh;
+    padding-inline: 0;
 }
 
 .education .quote {
@@ -570,13 +571,13 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
-    width: 30%;
-    height: 550px;
+    width: 380px;
+    height: fit-content;
     border-radius: 0.5rem;
     box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
     text-align: center;
     position: relative;
-    margin-top: 2rem;
+    margin-top: 4rem;
     overflow: hidden;
     transition: 0.3s;
     background: rgb(252, 252, 252);
@@ -589,9 +590,9 @@ header .navbar ul li a:hover {
 
 .education .box-container .box .image {
     margin-top: 3.5rem;
-    margin-left: 5.5rem;
+    margin-inline: auto;
     flex: 1 1 20rem;
-    width: 75%;
+    width: 80%;
     height: 550px;
 }
 
@@ -663,7 +664,6 @@ header .navbar ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
-    margin-top: 5rem;
 }
 
 .box-container .projects {
@@ -1009,7 +1009,6 @@ form .message {
 form .message textarea {
     min-height: 130px;
     max-height: 230px;
-    max-width: 100%;
     min-width: 100%;
     padding: 12px 20px 0 48px;
 }
